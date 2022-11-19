@@ -6,12 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Sidebar left and right */
 .sidebar-left {
     height: 100vh;
     width: 600px;
     position: fixed;
     background-color: #D6E4E5;
 }
+
+.sidebar-right {
+    margin-left: 600px;
+    margin-right: 50px;
+    padding-top: 240px;
+}
+
+/* SideBar link */
 .foto {
     width: 200px;
     height: 200px;
@@ -19,7 +28,7 @@
     margin-left: 200px;
 }
 nav {
-    padding: 200px 0 0 0px;
+    padding: 160px 0 0 0px;
 }
 
 nav h3{
@@ -31,6 +40,7 @@ nav p{
     padding: 0px 0 10px 0px;
     font-size: 14px;
 }
+
 nav ul li {
     padding: 10px 0 10px 0px;
     list-style: none;
@@ -47,9 +57,30 @@ nav ul li a:hover{
     transition: 1ms;
     text-decoration: underline;
 }
+.copyright {
+    padding-top: 280px;
+    color: #a0a0a0;
+    font-size: 11px;
+}
 
-.sidebar-right {
-    margin-left: 600px;
-    margin-right: 50px;
-    padding-top: 300px;
+/* Home Text Content */
+.home-text {
+    padding-left: 30px;
+}
+.home-text h2 {
+    padding-bottom: 4px;
+}
+
+.home-text p{
+    padding-bottom: 600px;
+}
+
+/* Experience */
+.my-experience {
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background: #064663;
 }
