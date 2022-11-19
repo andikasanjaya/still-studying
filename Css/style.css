@@ -40,9 +40,8 @@ nav p{
     padding: 0px 0 10px 0px;
     font-size: 14px;
 }
-
 nav ul li {
-    padding: 10px 0 10px 0px;
+    padding: 10px 0 10px 2px;
     list-style: none;
     text-align: center;
 }
@@ -83,4 +82,5 @@ nav ul li a:hover{
 
 .card {
     background: #064663;
+    padding-bottom: 1000px;
 }
