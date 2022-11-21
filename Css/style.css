@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Sidebar left and right */
+/*=================== Sidebar left and right ===================*/
 .sidebar-left {
     height: 100vh;
     width: 600px;
@@ -17,10 +17,10 @@
 .sidebar-right {
     margin-left: 700px;
     margin-right: 120px;
-    padding-top: 240px;
+    padding-top: 180px;
 }
 
-/* SideBar link */
+/*=================== SideBar link ===================*/
 .foto {
     width: 200px;
     height: 200px;
@@ -59,28 +59,48 @@ nav ul li a:hover{
     transition: 1ms;
     text-decoration: underline;
 }
-
+.social {
+    padding-top: 140px;
+    text-align: center;
+}
+.social a {
+    color: #064663;
+    font-size: 30px;
+    margin: 4px;
+}
+.social a:hover{
+    color:antiquewhite;
+}
 .copyright {
-    padding-top: 240px;
+    /* padding-top: 100px; */
+    text-align: center;
     color: #a0a0a0;
     font-size: 11px;
 }
 
-/* Home Text Content */
-.home-text {
-    padding-left: 30px;
-}
+/*=================== Home Text Content ===================*/
 .home-text h2 {
     padding-bottom: 4px;
+    font-weight: bold;
 }
 
 .home-text p{
     padding-bottom: 600px;
 }
 
-/* Experience */
+.btn-download{
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+/*=================== About Me ===================*/
+.about-me {
+    padding-top: 140px;
+    padding-bottom: 980px;
+}
+
+
+/*=================== Experience ===================*/
 .my-experience {
-    padding-left: 30px;
     padding-bottom: 100px;
 }
 
@@ -90,11 +110,16 @@ nav ul li a:hover{
 } 
 
 .card img {
-    height: 200px;
+    height: 240px;
 } 
 
 .font-size-title{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 20px;
     font-size: 30px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: 400px;
 }
