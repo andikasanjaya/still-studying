@@ -11,12 +11,12 @@
     height: 100vh;
     width: 600px;
     position: fixed;
-    background-color: #D6E4E5;
+    background-color: #ffd9a0;
 }
 
 .sidebar-right {
-    margin-left: 600px;
-    margin-right: 50px;
+    margin-left: 700px;
+    margin-right: 120px;
     padding-top: 240px;
 }
 
@@ -40,6 +40,9 @@ nav p{
     padding: 0px 0 10px 0px;
     font-size: 14px;
 }
+nav ul{
+    padding-left: 0px;
+}
 nav ul li {
     padding: 10px 0 10px 2px;
     list-style: none;
@@ -56,8 +59,9 @@ nav ul li a:hover{
     transition: 1ms;
     text-decoration: underline;
 }
+
 .copyright {
-    padding-top: 280px;
+    padding-top: 240px;
     color: #a0a0a0;
     font-size: 11px;
 }
@@ -81,6 +85,16 @@ nav ul li a:hover{
 }
 
 .card {
-    background: #064663;
-    padding-bottom: 1000px;
+    /* background: #91d5f5; */
+    --bs-card-border-width:0px;
+} 
+
+.card img {
+    height: 200px;
+} 
+
+.font-size-title{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
 }
