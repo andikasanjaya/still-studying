@@ -52,6 +52,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     color: #282A3A;
+    padding: 10px 20px;
 }
 
 nav ul li a:hover{
@@ -69,7 +70,7 @@ nav ul li a:hover{
     margin: 4px;
 }
 .social a:hover{
-    color:antiquewhite;
+    color:rgb(65, 45, 20);
 }
 .copyright {
     /* padding-top: 100px; */
@@ -89,8 +90,17 @@ nav ul li a:hover{
 }
 
 .btn-download{
-    padding: 10px 20px;
-    border-radius: 10%;
+    padding: 20px 30px;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #064663;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.getwaves {
+    height: 600px;
 }
 /*=================== About Me ===================*/
 .about-me {
