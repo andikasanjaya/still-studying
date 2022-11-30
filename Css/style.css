@@ -56,9 +56,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #064663;
+    color: white;
     transition: 1ms;
-    text-decoration: underline;
 }
 .social {
     padding-top: 140px;
@@ -81,30 +80,41 @@ nav ul li a:hover{
 
 /*=================== Home Text Content ===================*/
 .home-text h2 {
-    padding-bottom: 4px;
+    font-size: 60px;
     font-weight: bold;
 }
-
-.home-text p{
-    padding-bottom: 600px;
+.home-text h4 {
+    font-size: 30px;
+    color: #a0a0a0;
+    padding-bottom: 4px;
 }
+.home-text p{
+    font-size: 18px;
+    padding-bottom: 400px;
+}
+
 
 .btn-download{
     padding: 20px 30px;
     border: 2px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #064663;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-
+.about-me a:hover {
+    color: white;
+}
 /*=================== About Me ===================*/
 .about-me {
     padding-top: 140px;
-    padding-bottom: 980px;
+    padding-bottom: 600px;
 }
 
+.about-me p {
+    padding-bottom: 10px;
+}
 
 /*=================== Experience ===================*/
 .my-experience {
@@ -153,5 +163,5 @@ nav ul li a:hover{
     font-weight: bolder;
 }
 #contact {
-    padding: 140px 0 400px;
+    padding: 140px 0 340px;
 }
