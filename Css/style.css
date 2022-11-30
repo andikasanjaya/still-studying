@@ -99,9 +99,6 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-.getwaves {
-    height: 600px;
-}
 /*=================== About Me ===================*/
 .about-me {
     padding-top: 140px;
@@ -132,4 +129,29 @@ nav ul li a:hover{
 
 .card-title {
     font-weight: 400px;
+}
+
+/* Skills */
+.progress {
+    margin: 5px 0 5px;
+    --bs-progress-height: 10px;
+    width: 500px;
+}
+
+.progress-bar{
+    font-size: 10px;
+}
+
+.skills {
+    padding-top: 140px;
+    padding-bottom: 600px   ;
+}
+
+/* Social */
+.btn {
+    padding: 8px 30px;
+    font-weight: bolder;
+}
+#contact {
+    padding: 140px 0 400px;
 }
