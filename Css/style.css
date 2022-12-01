@@ -51,14 +51,28 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
     color: #282A3A;
-    padding: 10px 20px;
+    cursor: pointer;
 }
 
-nav ul li a:hover{
-    color: white;
-    transition: 1ms;
+nav ul li a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #064663;
+    display: block;
+    transition: .5s ease-in-out;
 }
+
+nav ul li a:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #064663;
+    display: block;
+}
+
 .social {
     padding-top: 140px;
     text-align: center;
