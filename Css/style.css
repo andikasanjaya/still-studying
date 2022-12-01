@@ -40,13 +40,13 @@ nav h3{
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-    color: #ffffff;
+    color: #393E46;
 }
 nav p{
     text-align: center;
     padding: 0px 0 10px 0px;
     font-size: 14px;
-    color: #ffffff;
+    color: #393E46;
 }
 nav ul{
     padding-left: 0px;
@@ -86,13 +86,14 @@ nav ul li a:hover::after{
 }
 .btn:hover {
     font-size: 16.5px;
+    color: #064663;
 }
 .social {
     padding-top: 140px;
     text-align: center;
 }
 .social a {
-    color: #ffffff;
+    color: #393E46;
     font-size: 30px;
     margin: 4px;
 }
@@ -110,6 +111,7 @@ nav ul li a:hover::after{
 .home-text h2 {
     font-size: 60px;
     font-weight: bold;
+    color: #6eb99e;
 }
 .home-text h4 {
     font-size: 30px;
@@ -144,6 +146,9 @@ nav ul li a:hover::after{
     padding-bottom: 10px;
 }
 
+.about-me h5 {
+    color: #a0a0a0;
+}
 /*=================== Experience ===================*/
 .my-experience {
     padding-bottom: 100px;
@@ -160,9 +165,9 @@ nav ul li a:hover::after{
 
 .font-size-title{
     padding-top: 40px;
-    padding-bottom: 20px;
     font-size: 30px;
     font-weight: bold;
+    color: #6eb99e;
 }
 
 .card-title {
@@ -178,6 +183,7 @@ nav ul li a:hover::after{
 
 .progress-bar{
     font-size: 10px;
+    background-color:#8EC3B0;
 }
 
 .skills {
